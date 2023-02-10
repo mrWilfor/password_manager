@@ -14,4 +14,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Password Manager"
 include ':app'
-include ':app:core'
+include ':core'
+include ':core_android'
