@@ -59,5 +59,8 @@ dependencies {
     debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_ui_version"
 
     //modules dependencies
+    implementation(project(':core'))
     implementation(project(':core_android'))
+    implementation(project(':password_generator_api'))
+    implementation(project(':password_generator_impl'))
 }
