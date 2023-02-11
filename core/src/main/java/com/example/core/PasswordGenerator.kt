@@ -1,4 +1,4 @@
-package com.example.password_generator_api
+package com.example.core
 
 interface PasswordGenerator {
     fun generatePassword(

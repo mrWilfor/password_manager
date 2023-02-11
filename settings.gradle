@@ -16,5 +16,4 @@ rootProject.name = "Password Manager"
 include ':app'
 include ':core'
 include ':core_android'
-include ':password_generator_api'
-include ':password_generator_impl'
+include ':domain'

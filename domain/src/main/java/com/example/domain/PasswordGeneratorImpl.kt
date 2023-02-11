@@ -1,7 +1,7 @@
-package com.example.password_generator_impl
+package com.example.domain
 
 import com.example.core.utils.GlobalConstants.emptyString
-import com.example.password_generator_api.PasswordGenerator
+import com.example.core.PasswordGenerator
 
 class PasswordGeneratorImpl : PasswordGenerator {
     private val chars = 'a'..'z'
