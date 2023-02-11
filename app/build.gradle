@@ -61,4 +61,5 @@ dependencies {
     //modules dependencies
     implementation(project(':core'))
     implementation(project(':core_android'))
+    implementation(project(':domain'))
 }
